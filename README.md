@@ -18,7 +18,7 @@ docker build -t tazim04/model-service:latest .
 docker run -p 5000:5000 tazim04/model-service:latest
 ```
 
-### Option 1 - Pull from Docker Hub
+### Option 2 - Pull from Docker Hub
 
 ```bash
 docker pull tazim04/model-service:latest
