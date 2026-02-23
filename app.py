@@ -10,10 +10,6 @@ classifier = pipeline(
     model="distilbert-base-uncased-finetuned-sst-2-english"
 )
 
-@app.route("/")
-def home():
-    return "Flask app is running"
-
 # prediction endpoint
 @app.route("/predict", methods=["POST"])
 def predict():
